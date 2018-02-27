@@ -11,4 +11,4 @@ Start:
   
 
 Demo:
-[https://silksoftwarehouse.github.io/game-points-kc/](https://silksoftwarehouse.github.io/game-points-kc/)
+[http://kcz.dev.silk-sh.eu/](http://kcz.dev.silk-sh.eu/)
