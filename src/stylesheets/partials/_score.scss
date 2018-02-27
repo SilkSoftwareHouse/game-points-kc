@@ -1,0 +1,43 @@
+.score__bonuses{
+  border-top: 1px solid $grey;
+
+  p{
+    padding: 0 20px;
+    display: inline-block;
+    width: calc(50% - 40px);
+
+    &:last-child{
+      font-weight: 700;
+    }
+  }
+}
+
+.score__total{
+  border-top: 1px solid $grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  div{
+    flex: 1;
+    padding: 0 10px;
+  }
+
+  p{
+    text-align: center;
+
+    &:last-child{
+      font-size: 25px;
+      font-weight: 700;
+    }
+  }
+}
+@media all and (max-width: $break-sm){
+  .score__total{
+    p{
+      margin: 10px auto;
+    }
+  }
+}
+
+

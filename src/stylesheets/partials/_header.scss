@@ -1,0 +1,29 @@
+header{
+  background-color: $sRed2;
+  border-bottom: 1px solid $grey;
+
+  h2{
+    margin: 0;
+    padding: 20px 10px;
+    color: $white;
+  }
+}
+
+aside{
+  header{
+    background-color: $sRed250;
+    border-bottom: 1px solid $sRed2;
+
+    h2{
+      color: $sRed2;
+    }
+  }
+}
+
+@media all and (max-width: $break-xs){
+  header{
+    h2{
+      padding: 10px;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+main{
+  display: flex;
+  height: 100vh;
+  box-sizing: border-box;
+  user-select: none;
+
+  section{
+    flex: 7;
+  }
+
+  aside{
+    flex: 3;
+    border-left: 1px solid $grey;
+  }
+}
+
+// RWD
+
+@media all and (max-width: $break-xs){
+  main{
+
+    section,
+    aside{
+      flex: 5;
+    }
+  }
+}
